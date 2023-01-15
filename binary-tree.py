@@ -129,3 +129,13 @@ print("\nMinimum value:", name_tree.find_min())
 print("Maximum value:", name_tree.find_max())
 print("Is the letter U included in the list?:", name_tree.search("U"))
 print("Is the letter S included in the list?:", name_tree.search("S"))
+
+name_tree.delete("N")
+print("After deleting letter N, The current list of letters was now being shown in order traversal:\n",
+      name_tree.in_order_traversal())
+name_tree.delete("A")
+print("After deleting letter A, The current list of letters was now being shown in order traversal:\n",
+      name_tree.in_order_traversal())
+name_tree.delete("L")
+print("After deleting letter L, The current list of letters was now being shown in order traversal:\n",
+      name_tree.in_order_traversal())
