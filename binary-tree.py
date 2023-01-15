@@ -115,3 +115,8 @@ def build_tree(elements):
         root.add_child(elements[i])
 
     return root
+
+if __name__ == '__main__':
+    name = ["J", "I", "M", "W", "E", "L", "L", "L",
+            "M", "A", "N", "G", "U", "L", "A", "B", "N", "A", "N"]
+    numbers = [32, 22, 24, 6, 69, 22, 54, 24, 69, 19, 75, 10, 32]
