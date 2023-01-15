@@ -139,3 +139,7 @@ print("After deleting letter A, The current list of letters was now being shown 
 name_tree.delete("L")
 print("After deleting letter L, The current list of letters was now being shown in order traversal:\n",
       name_tree.in_order_traversal())
+
+print("\nIn order traversal of the list:", name_tree.in_order_traversal())
+print("Pre order traversal of the list:", name_tree.pre_order_traversal())
+print("Post order traversal of the list:", name_tree.post_order_traversal())
