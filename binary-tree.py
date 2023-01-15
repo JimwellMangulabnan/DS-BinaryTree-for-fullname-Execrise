@@ -164,3 +164,5 @@ print("After deleting number 75, The current list for numbers was now being show
 numbers_tree.delete(32)
 print("After deleting number 32, The current list for numbers was now being shown in order traversal:\n",
       numbers_tree.in_order_traversal())
+
+print("\nSum of all numbers:", numbers_tree.calculate_sum())
