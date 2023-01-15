@@ -120,3 +120,10 @@ if __name__ == '__main__':
     name = ["J", "I", "M", "W", "E", "L", "L", "L",
             "M", "A", "N", "G", "U", "L", "A", "B", "N", "A", "N"]
     numbers = [32, 22, 24, 6, 69, 22, 54, 24, 69, 19, 75, 10, 32]
+
+name_tree = build_tree(name)
+print("\t\t\t", "-"*30)
+print("\t\t\t====BINARY TREE FOR LETTERS OF NAME====")
+print("Letters of my full name:", name)
+print("\nMinimum value:", name_tree.find_min())
+print("Maximum value:", name_tree.find_max())
